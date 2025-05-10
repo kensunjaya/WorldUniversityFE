@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 import axios from "axios";
 import { DataContext } from "../context/Context";
 import { useNavigate } from "react-router-dom";

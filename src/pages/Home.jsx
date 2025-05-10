@@ -1,8 +1,8 @@
 import { useContext, useEffect } from "react";
-import Navbar from "../components/navbar"
 import axios from "axios";
 import { DataContext } from "../context/Context";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   const { allCountries, setAllCountries, setSelectedCountry } = useContext(DataContext);
